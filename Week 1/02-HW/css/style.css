@@ -33,12 +33,12 @@ section {
 /* Made a div element in order to create a section block */
 
 div {
-    background-color: white;
+    background-color: black;
     color:black;
     float:left;
     height: 300px;
     width: 100%;
-    /* padding-top: 90px; */
+    
 }
 
 section {
@@ -57,9 +57,33 @@ aside {
 
 }
 
+article {
+    background-color: grey;
+    margin:35px, 10px;
+      
+
+}
+
+
+h1 {
+    background-color:white;
+
+
+}
+
+section {
+    background-color:white;
+    text-align: center;
+   ;
+
+}
 
 p {
     text-align: center;
-    padding-top:5px;
+
+}
+
+.articleSpecs {
+    background-color: grey;
 
 }
