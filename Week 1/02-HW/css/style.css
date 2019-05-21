@@ -1,0 +1,86 @@
+body {
+    font-family: Ariel,Helvetica Neue, Arial, Helvetica, sans-serif;
+    color: #777;
+    background:#777;
+    Width:960px;
+    font-size:18px;
+    margin: auto;
+
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+
+}
+
+header {
+
+    background-color: lightsteelblue;
+    height:65px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+nav {
+    background-color: rgb(6, 204, 22);
+    height:65px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 10px;
+
+}
+
+section {
+    float: left;
+
+}
+
+aside {
+    float: right;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    background-color: peachpuff;
+    color: black;
+    margin: 15px;
+    padding: 25px;
+}
+
+/* Made a div element in order to create a section block */
+
+div {
+    background-color: orange;
+    color:black;
+    float:left;
+    text-align: center;
+    height: 300px;
+    width: 495px;
+    padding-top: 90px;
+}
+
+
+article {
+    color:#ebebeb;
+    background: #777;
+
+}
+
+/* h1 {
+    color: #777;
+    background:#ebebeb;
+
+
+} */
+
+
+
+footer {
+
+
+}
+
+
+
+
+}
