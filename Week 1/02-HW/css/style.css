@@ -6,18 +6,10 @@ body {
     font-size:18px;
     margin: auto;
 
-}
-
-header, nav, section, aside, footer {
-    background: #ebebeb;
-
-}
-
-header {
+}header {
 
     background-color: lightsteelblue;
     height:65px;
-    text-align: center;
     padding-top: 40px;
 
 }
@@ -25,9 +17,10 @@ header {
 nav {
     background-color: rgb(6, 204, 22);
     height:65px;
-    text-align: center;
     padding-top: 40px;
     margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 
 }
 
@@ -36,51 +29,37 @@ section {
 
 }
 
-aside {
-    float: right;
-    height: 300px;
-    width: 350px;
-    text-align: center;
-    background-color: peachpuff;
-    color: black;
-    margin: 15px;
-    padding: 25px;
-}
 
 /* Made a div element in order to create a section block */
 
 div {
-    background-color: orange;
+    background-color: white;
     color:black;
     float:left;
-    text-align: center;
     height: 300px;
-    width: 495px;
-    padding-top: 90px;
+    width: 100%;
+    /* padding-top: 90px; */
 }
 
-
-article {
-    color:#ebebeb;
-    background: #777;
-
+section {
+    background-color:firebrick;
+    width:495px;
+    height:100%;
+    margin-bottom: 100px; 
 }
 
-/* h1 {
-    color: #777;
-    background:#ebebeb;
-
-
-} */
-
-
-
-footer {
-
+aside {
+    background-color: blue;
+    height: 100%;
+    width: 430px;
+    float: left;
+    margin-left: 35px;
 
 }
 
 
-
+p {
+    text-align: center;
+    padding-top:5px;
 
 }
