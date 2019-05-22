@@ -33,11 +33,13 @@ section {
 /* Made a div element in order to create a section block */
 
 div {
-    background-color: black;
+    /* background-color: black; */
     color:black;
     float:left;
     height: 300px;
     width: 100%;
+    border:black;
+    border-style: dotted;
     
 }
 
@@ -46,6 +48,7 @@ section {
     width:495px;
     height:100%;
     margin-bottom: 100px; 
+    
 }
 
 aside {
@@ -54,6 +57,7 @@ aside {
     width: 430px;
     float: left;
     margin-left: 35px;
+    
 
 }
 
@@ -67,6 +71,10 @@ article {
 
 h1 {
     background-color:white;
+    padding: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+   
 
 
 }
@@ -74,16 +82,50 @@ h1 {
 section {
     background-color:white;
     text-align: center;
+    
    ;
 
 }
 
 p {
     text-align: center;
+    
 
 }
 
 .articleSpecs {
-    background-color: grey;
+    background-color: pink;
+    color: orange;
+    padding: 29px;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: -14px;
+    position: relative;
+    
 
 }
+
+.articleBox {
+    background-color: grey;
+    margin: 10px;
+    padding:10px;
+    
+
+}
+
+.footsies {
+    background-color: orange;
+    color: black;
+    height: 65px;
+    padding-top: 40px;
+    margin-top: 315px;
+    margin-bottom: 25px;
+    width: 960px;
+    right: 468px;
+}
+
+.footerContent {
+    top:290px;
+
+}
+
