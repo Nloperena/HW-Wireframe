@@ -38,8 +38,6 @@ div {
     float:left;
     height: 300px;
     width: 100%;
-    border:black;
-    border-style: dotted;
     
 }
 
@@ -48,7 +46,6 @@ section {
     width:495px;
     height:100%;
     margin-bottom: 100px; 
-    
 }
 
 aside {
@@ -57,13 +54,14 @@ aside {
     width: 430px;
     float: left;
     margin-left: 35px;
-    
 
 }
 
 article {
     background-color: grey;
-    margin:35px, 10px;
+    width: 465px;
+    margin-left: 15px;
+    
       
 
 }
@@ -83,6 +81,7 @@ section {
     background-color:white;
     text-align: center;
     
+    
    ;
 
 }
@@ -95,7 +94,7 @@ p {
 
 .articleSpecs {
     background-color: pink;
-    color: orange;
+    color: black;
     padding: 29px;
     margin-left: 40px;
     margin-right: 40px;
@@ -118,7 +117,7 @@ p {
     color: black;
     height: 65px;
     padding-top: 40px;
-    margin-top: 315px;
+    margin-top: 325px;
     margin-bottom: 25px;
     width: 960px;
     right: 468px;
