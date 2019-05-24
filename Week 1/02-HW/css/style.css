@@ -92,7 +92,7 @@ p {
 
 }
 
-.articleSpecs {
+#articleSpecs {
     background-color: pink;
     color: black;
     padding: 29px;
@@ -105,7 +105,7 @@ p {
 }
 
 .articleBox {
-    background-color: grey;
+    background-color: pink;
     margin: 10px;
     padding:10px;
     
